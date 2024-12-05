@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0D4155AC2D0236B90069DCED /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0D4155AB2D0236B90069DCED /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0D41558B2D0236240069DCED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4155AC2D0236B90069DCED /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = vpaginationListk;
 			packageProductDependencies = (
+				0D4155AB2D0236B90069DCED /* Alamofire */,
 			);
 			productName = vpaginationListk;
 			productReference = 0D41557A2D0236230069DCED /* vpaginationListk.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 0D4155712D0236230069DCED;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0D4155AA2D0236B90069DCED /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0D41557B2D0236230069DCED /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D4155AA2D0236B90069DCED /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D4155AB2D0236B90069DCED /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D4155AA2D0236B90069DCED /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D4155722D0236230069DCED /* Project object */;
 }
