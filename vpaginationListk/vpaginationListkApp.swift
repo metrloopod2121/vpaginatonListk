@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct vpaginationListkApp: App {
+struct paginationListApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RepoListView()
         }
     }
 }
